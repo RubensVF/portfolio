@@ -1,0 +1,48 @@
+.cardContainer{
+  display: block;
+  width: 90%;
+  img{
+    display: block;
+    width: 100%;
+    margin: 0;
+  }
+}
+
+.cardContent{
+  font-size: 1rem;
+  opacity: .9;
+  line-height: 134%;
+  letter-spacing: normal;
+  margin: auto;
+  background-color: #171717;
+  padding: 1em;
+  h3{
+    font-size: 18px;
+    margin: 1px 0;
+  }
+  h4{
+    font-size: 16px;
+    margin: 1px 0;
+  }
+  .thecnology{
+    display: flex;
+    span{
+      margin: 5px  5px 0 0 ;
+      background-color: #7C38EB;
+      color: white;
+      border-radius: 99em;
+      padding: 2px 8px;
+    }
+  
+  }
+}
+
+.options{
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 10px 0 10px;
+  a{
+    text-decoration: none;
+    color: white;
+  }
+}

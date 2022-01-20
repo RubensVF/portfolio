@@ -1,0 +1,33 @@
+#hero-section{
+    font-size: 10rem;
+    line-height: 98%;
+    font-weight: 600;
+    letter-spacing: -.05em;
+    padding-left: 16px;
+    height: 100vh;
+    position:relative;
+    display:flex;
+    align-items:center;
+    @media screen and (max-width:768px){
+        font-size: 4.5rem;
+        width: 60%;
+    }
+}
+
+.hero{
+    width: 50%;
+    display: inline-block;
+}
+.name{
+    color: #7C38EB;
+    display: block;
+}
+.description{
+    font-size: 1rem;
+    opacity: .9;
+    line-height: 134%;
+    letter-spacing: normal;
+    margin: auto;
+    background-color: #171717;
+    padding: 1em;
+}

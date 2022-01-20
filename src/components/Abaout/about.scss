@@ -1,0 +1,49 @@
+#about{
+    font-size: 18px;
+    padding-left: 16px;
+    line-height: 1.5;
+    min-height: 100vh;
+    position:relative;
+    display:flex;
+    flex-direction: column;
+    h1{
+        width: 60%;
+        color: #7C38EB;
+        font-size: 48px;
+    }
+    h2{
+        width: 90%;
+        color:#7C38EB;
+        line-height: 1;
+        font-weight: 1000;
+    }
+    p{
+        width: 60%;
+        background-color: #171717;
+        padding: 1em;
+        opacity: 0.9;
+        @media screen and(max-width:724px) {
+            width:70%
+        }
+    }
+    ul{
+        width: 70%;
+        list-style-type: none;
+        margin-left: 0;
+        li{
+            width: auto;
+            margin: 0.5em 0;
+            background-color: #171717;
+            padding: 0.5em;
+            opacity: 0.9;
+            &::before{
+                content: "\2022";
+                color: #7C38EB;
+                font-weight: bold;
+                display: inline-block; 
+                width: 1em;
+                margin-left: -1.2em;
+            }
+        }
+    }
+}
